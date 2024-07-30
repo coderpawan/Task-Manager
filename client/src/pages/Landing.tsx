@@ -11,7 +11,7 @@ const Landing = () => {
     <>
       {user && <Navigate to="/" />}
       <Wrapper>
-        <nav>{theme === "light" ? <LogoDark /> : <LogoLight />}</nav>
+        <nav>{theme === "dark" ? (<div className="text-white font-bold text-4xl">Task Manager</div>) : (<div className="text-black font-bold text-4xl">Task Manager</div>)}</nav>
         <div className="page">
           {/* info */}
           <div className="info">
