@@ -8,7 +8,7 @@ const SocialLinks = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/onosereme-emuemhonjie-5a5454161/"
+            href="https://www.linkedin.com/in/pawan-kumar-sahu-4329a2208/"
             target="_blank"
             rel="noreferrer"
           >
@@ -19,7 +19,7 @@ const SocialLinks = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/onoseremejohn"
+            href="https://portfolio-blog-three-smoky.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -30,7 +30,7 @@ const SocialLinks = () => {
         </li>
         <li>
           <a
-            href="https://github.com/onoseremejohn"
+            href="https://github.com/coderpawan"
             target="_blank"
             rel="noreferrer"
           >
