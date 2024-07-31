@@ -72,7 +72,7 @@ const Register = () => {
   return (
     <Wrapper isLoading={isLoading}>
       <form onSubmit={handleSubmit}>
-        {theme === "light" ? <LogoDark /> : <LogoLight />}
+        {theme === "dark" ? (<div className="text-white font-bold text-4xl">Task Manager</div>) : (<div className="text-black font-bold text-4xl">Task Manager</div>)}
         <h3 style={{ textAlign: "center", marginTop: "0.5em" }}>{action}</h3>
         <Alert />
         {action === "register" && (
